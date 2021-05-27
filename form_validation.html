@@ -1,6 +1,27 @@
 <html>
 <title>Form Validation</title>
+<head>
 
+    
+    <style> 
+input[type=text] {
+  background-color: #4682B4;
+  color: white;
+  
+}
+input[type=password]{
+  background-color:#4682B4;
+  color: white;
+  }
+  input[type=submit]{
+  background-color:#4682B4;
+  color: white;
+  }
+
+
+
+      </style>
+</head>
 <script>  
         function validateform(){  
         var name=document.myform.name.value;  
@@ -30,7 +51,7 @@
        <!--- <form action="/action_page.php">  -->
     <h3 align = center>Login Page</h3>
     <br><br><br>
-<h4 > Enter User Name : <input  type = "text"  label = "name"  id="name" name = "name" required></h4>
+<h4 > Enter User Name : <input type = "text"  label = "name"  id="name" name = "name" required></h4>
 <h4 > Enter Password  :  <input type = "password"   label = "password"  id="password" name = "password" required></h4>
 <br>
 <input  type="submit" value="Submit">
