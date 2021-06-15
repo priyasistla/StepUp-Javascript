@@ -1,0 +1,22 @@
+<!--<pre>{{ info | json }} </pre>
+-->
+
+<!--<div *ngFor="let crib of cribs">
+<h4>{{crib.facultyId }}</h4>
+<h4>{{crib.facultyName }} </h4>
+<h4>{{crib.facultyMobile }} </h4>
+<h4>{{crib.facultyEmail }} </h4>
+<h4>{{crib.highestQualification }} </h4>
+<h4>{{crib.workLocation }} </h4>
+
+</div> -->
+
+<ul>
+    <li *ngFor="let crib of cribs ">
+        <h3>{{crib.facultyId}}</h3>
+        <p> {{crib.facultyName}} </p>
+        <p> {{crib.facultyMobile}} </p>
+        <p> {{crib.facultyEmail }} </p>
+        <p> {{crib.highestQualification}} </p>
+    </li>
+</ul>
